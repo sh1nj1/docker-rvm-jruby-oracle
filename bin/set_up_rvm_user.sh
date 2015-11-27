@@ -9,4 +9,4 @@ echo "source /etc/profile.d/rvm.sh" >> $HOME/.bashrc
 source /etc/profile.d/rvm.sh
 
 # Pick jRuby and set it as the default Ruby
-rvm use jruby --default
+rvm use jruby-$2 --default
